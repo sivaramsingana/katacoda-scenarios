@@ -1,0 +1,36 @@
+{
+    "title": "Deploying Cloud Native Application in a Kubernetes Cluster",
+    "description": "Learn how to deploy cloud native application",
+    "difficulty": "intermediate",
+    "time": "5-10 minutes",
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1 - Setting Up Kubectl Binaries",
+                "text": "step1.md"
+            },
+            {
+                "title": "Step 2 - Deploying Service & Deployment files",
+                "text": "step2.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "courseData": "courseBase.sh",
+            "credits": ""
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "files": [
+        "app.js"
+    ],
+    "environment": {
+        "uilayout": "terminal",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    },
+    "backend": {
+        "imageid": "docker"
+    }
+}
