@@ -1,6 +1,6 @@
 What's best way to test a cloud-native application than Kubernetes ?
 
-`wget https://dl.k8s.io/v1.18.0/kubernetes-client-darwin-386.tar.gz 
+`wget https://storage.googleapis.com/kubernetes-release/release/v1.18.0/kubernetes-client-darwin-amd64.tar.gz 
 tar -zxf kubernetes-client-darwin-386.tar.gz
 cp kubernetes/client/bin/kubectl ~/.bin/kubectl
 `{{execute}}
