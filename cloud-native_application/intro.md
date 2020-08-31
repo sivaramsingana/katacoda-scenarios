@@ -2,7 +2,7 @@ This scenario explains how to deploy cloud native application developed with Nod
 We have leveraged opensource packages ( MongoDB / NodeJS ) and deployed a sample MongoDB's GeoSpatial Application 
 on Kubernetes/OCP
 
-We ( I and Mithun H R ) have worked alongwith Pradipta Banerjee for creating this scenario.
+We ( I and Mithun H R ) have worked alongwith Pradipta Banerjee in creating this scenario.
 
 For detailed explaination of about the application architecture and it's usage please refer to my blog article -
 
