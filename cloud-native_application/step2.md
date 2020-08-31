@@ -6,4 +6,6 @@ Click on `github` --> Allow your GitHub handle to authenticate ( grant permissio
 
 Copy Login Command --> Display Token --> Copy the token
 
-*NOTE* - Update the Port to `992` from `6443`
+*NOTE* - Update the Port to `992` from `6443` .Something Similar to this -
+
+`oc login --token=<UPDATE> --server=https://api.bpradipt-505b.161.156.154.131.nip.io:992 --insecure-skip-tls-verify=true`
