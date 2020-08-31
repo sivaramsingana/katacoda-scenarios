@@ -1,13 +1,9 @@
-Let's now deploy service files for our Two-Tier Application (MongoDB/NodeJS)
+Access OpenShift Container Platform ( setup on IBM PowerVS - IBM Cloud ) WebConsole URL - authenticate with your Public GitHub ID
 
-`
-kubectl create -f https://raw.githubusercontent.com/krishvoor/cloud_interop/master/mong-service.yaml
-kubectl create -f https://raw.githubusercontent.com/krishvoor/cloud_interop/master/node-service.yaml
-`{{execute}}
+By Clicking on https://console-openshift-console.apps.bpradipt-505b.161.156.154.131.nip.io/ 
 
-Let's now apply deployment files for our Two-Tier Application (MongoDB/NodeJS)
+Click on `github` --> Allow your GitHub handle to authenticate ( grant permissions ) to this OpenShift Cluster.
 
-`
-kubectl create -f https://raw.githubusercontent.com/krishvoor/cloud_interop/master/mong-deployment.yaml
-kubectl create -f https://raw.githubusercontent.com/krishvoor/cloud_interop/master/node-deployment.yaml
-`{{execute}}
+Copy Login Command --> Display Token --> Copy the token
+
+*NOTE* - Update the Port to `992` from `6443`
