@@ -9,7 +9,7 @@ Let us pull a ubuntu playground ( as we have better control to install additiona
 
 We will leverage `oc` commands to interact with OCP4.5, we will first download `oc` tarball 
 
-`wget https://downloads-openshift-console.apps.bpradipt-505b.161.156.154.131.nip.io/amd64/linux/oc.tar`{{execute}}
+`wget https://downloads-openshift-console.apps.bpradipt-505b.161.156.154.131.nip.io/amd64/linux/oc.tar --no-check-certificate`{{execute}}
 
 Unpacking Tarball
 
