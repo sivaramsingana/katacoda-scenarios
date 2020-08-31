@@ -13,7 +13,7 @@ We will leverage `oc` commands to interact with OCP4.5, we will first download `
 
 Unpacking Tarball
 
-`tar -xf oc.tar` {{execute}}
+`tar -xf oc.tar`{{execute}}
 
 Updating path variable
 
