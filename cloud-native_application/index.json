@@ -2,16 +2,20 @@
     "title": "Deploying Cloud Native Application in a Kubernetes Cluster",
     "description": "Learn how to deploy cloud native application",
     "difficulty": "intermediate",
-    "time": "5-10 minutes",
+    "time": "10-15 minutes",
     "details": {
         "steps": [
             {
-                "title": "Step 1 - Setting Up Kubectl Binaries",
+                "title": "Step 1 - Installing/Setting Up Pre-requisites",
                 "text": "step1.md"
             },
             {
-                "title": "Step 2 - Deploying Service & Deployment files",
-                "text": "step2.md"
+                "title": "Step 2 - Authenticate with your GitHub Handle on OpenShift Cluster Platform",
+                "text": "step2.md" 
+            },
+            {
+                "title": "Step 3 - Deploying Cloud Native Application",
+                "text": "step3.md"
             }
         ],
         "intro": {
