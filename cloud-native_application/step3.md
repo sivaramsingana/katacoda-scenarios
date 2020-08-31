@@ -10,7 +10,9 @@ Change Directories
 
 `cd cloud_interop` {{execute}}
 
-Let's create new Project Space -
+Let's now create new Project Space -
+
+`oc new-project harsha`  {{execute}}
 
 Let's now apply service files for our Two-Tier Application -
 
