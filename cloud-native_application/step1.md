@@ -1,10 +1,20 @@
-What's best way to test a cloud-native application than Kubernetes ?
+What's best way to test a Cloud Native Application than OpenShift Container Platform running on IBM Power Virtual Servers ?
 
-`wget https://storage.googleapis.com/kubernetes-release/release/v1.18.0/kubernetes-client-darwin-amd64.tar.gz 
-tar -zxf kubernetes-client-darwin-386.tar.gz
-cp kubernetes/client/bin/kubectl ~/.bin/kubectl
+Let us pull a ubuntu playground ( as we have better control to install additional packages )
+
+` docker run -it ubuntu bash
 `{{execute}}
 
-The client uses the environment variable KUBERNETES_MASTER to define the default Master to communicate with.
+`apt update; apt install wget git -y`{{execute}}
 
-`export KUBERNETES_MASTER=http://docker:8080`{{execute}}
+We will leverage `oc` commands to interact with OCP4.5, we will first download `oc` tarball 
+
+`wget https://downloads-openshift-console.apps.bpradipt-505b.161.156.154.131.nip.io/amd64/linux/oc.tar`{{execute}}
+
+Unpacking Tarball
+
+`tar -xf oc.tar` {{execute}}
+
+Updating path variable
+
+`export PATH=$PATH:$PWD`{{execute}}
