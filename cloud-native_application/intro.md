@@ -10,4 +10,4 @@ For detailed explaination of about the application architecture and it's usage p
 
 2) https://krishvoor.github.io/publication/cloud_native_on_ppc64le/
 
-3) https://www.youtube.com/watch?v=_npHyvCj7Rg&pp=wgIECgIIAQ== 
+3) https://youtu.be/OVzM05PF3sg
