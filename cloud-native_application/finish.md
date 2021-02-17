@@ -1,1 +1,1 @@
-This scenario has explained how to deploy a cloud native application in Kubernetes Cluster.
+This scenario described an application deployment on OpenShift cluster running in Power Systems Virtual Server

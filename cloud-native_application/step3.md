@@ -1,33 +1,29 @@
-Let's now deploy a cloud native application.
-This repository would provide service/deployment-configuration files that can be consumed "as-is" on any OpenShift Container Platform 
-as well as Kubernetes Platform - to do so, please follow below steps -
+Let's now deploy the sameple application.
 
-Cloning the repository -
+Cloning the repository
 
-`git clone https://github.com/krishvoor/cloud_interop`{{execute}}
+`git clone https://github.com/ocp-power-demos/cloud_interop`{{execute}}
 
-Change Directories
+This repository contains the service and deployment configuration files that can be used as-is on the OpenShift or any Kubernetes platform.
+
+Change Directory
 
 `cd cloud_interop`{{execute}}
 
-Let's now create new Project Space -
+Create a new `Project`
 
-`oc new-project harsha`{{execute}}
+`oc new-project sample`{{execute}}
 
-Let's now apply service files for our Two-Tier Application -
+Deploy the application
 
-` oc create -f mong-service.yaml ; oc create -f node-service.yaml `{{execute}}
+`oc create -f mong-service.yaml; oc create -f node-service.yaml;  oc create -f mong-deployment.yaml;  oc create -f node-deployment.yaml `{{execute}}
 
-Let's now apply deployment files for our Two-Tier Application -
+Check status of Pods
 
-` oc create -f mong-deployment.yaml ; oc create -f node-deployment.yaml `{{execute}}
-
-To check status of pods -
-
-` oc get po `{{execute}}
+`oc get pods `{{execute}}
 
 Assuming pods have successfully started, let us now expose the application services outside cluster via
 
-` oc create route edge --service=node `{{execute}}
+`oc create route edge --service=node `{{execute}}
 
-We can now access the Application via https://node-harsha.apps.bpradipt-505b.161.156.154.131.nip.io/api/getInspectionsByZipCodeIteration/10100/10150/1 
+You can now access the application via https://node-sample.apps.test-ocp-ce4a.161.156.153.93.xip.io/api/getInspectionsByZipCodeIteration/10100/10150/1

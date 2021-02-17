@@ -1,20 +1,12 @@
-What's best way to test a Cloud Native Application than OpenShift Container Platform running on IBM Power Virtual Servers ?
+We will leverage `oc` command to interact with the OpenShift cluster.
+Let's download the `oc` tarball from the running cluster.
 
-Let us pull a ubuntu playground ( as we have better control to install additional packages )
+`wget https://downloads-openshift-console.apps.test-ocp-ce4a.161.156.153.93.xip.io/amd64/linux/oc.tar --no-check-certificate`{{execute}}
 
-` docker run -it ubuntu bash
-`{{execute}}
-
-`apt update; apt install wget git -y`{{execute}}
-
-We will leverage `oc` commands to interact with OCP4.5, we will first download `oc` tarball 
-
-`wget https://downloads-openshift-console.apps.bpradipt-505b.161.156.154.131.nip.io/amd64/linux/oc.tar --no-check-certificate`{{execute}}
-
-Unpacking Tarball
+Unpacking the tarball
 
 `tar -xf oc.tar`{{execute}}
 
-Updating path variable
+Updating the `PATH` variable
 
 `export PATH=$PATH:$PWD`{{execute}}
