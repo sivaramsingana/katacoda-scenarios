@@ -7,28 +7,28 @@
         "steps": [
             {
                 "title": "Step 1 - Getting started ",
-                "text": "step1.md"
+                "text": "Step1.md"
             },
             {
                 "title": "Step 2 - Deploy your service and deployment yaml",
-                "text": "step2.md" 
+                "text": "Step2.md" 
             },
             {
                 "title": "Step 3 - Running your platform",
-                "text": "step3.md"
+                "text": "Step3.md"
             },
 			{
                 "title": "Step 4 - sample demo h2o.ai",
-                "text": "step4.md"
+                "text": "Step4.md"
             }
         ],
         "intro": {
-            "text": "intro.md",
+            "text": "Intro.md",
             "courseData": "",
             "credits": ""
         },
         "finish": {
-            "text": "finish.md"
+            "text": "Finish.md"
         }
     },
     "files": [
