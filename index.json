@@ -1,0 +1,43 @@
+{
+    "title": "Learn installing and running H2O.AI Platform on Power Systems",
+    "description": "H2O is a fully open source, distributed in-memory machine learning platform with linear scalability.",
+    "difficulty": "intermediate",
+    "time": "10-15 minutes",
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1 - Getting started ",
+                "text": "step1.md"
+            },
+            {
+                "title": "Step 2 - Deploy your service and deployment yaml",
+                "text": "step2.md" 
+            },
+            {
+                "title": "Step 3 - Running your platform",
+                "text": "step3.md"
+            },
+			{
+                "title": "Step 4 - sample demo h2o.ai",
+                "text": "step4.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "courseData": "",
+            "credits": ""
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "files": [
+        "app.js"
+    ],
+    "environment": {
+        "uilayout": "editor-terminal"
+    },
+    "backend": {
+        "imageid": "kubernetes-cluster-running:1.18"
+    }
+}
