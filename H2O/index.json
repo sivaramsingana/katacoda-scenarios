@@ -31,9 +31,9 @@
             "text": "Finish.md"
         }
     },
-    "files": [
-        "app.js"
-    ],
+ //   "files": [
+ //       "app.js"
+  //  ],
     "environment": {
         "uilayout": "editor-terminal"
     },
