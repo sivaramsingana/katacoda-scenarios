@@ -6,4 +6,4 @@ Prerequisites:
 
 H2O license
 
-Basic understanding of kubernetes
+Basic understanding of kubernetes & Linux
