@@ -10,12 +10,6 @@ Note: Please save name of the pod for future use.
 
 Let's test our work!!
 
-If you're using openshift then execute below command
-
-`oc rsh <Name of pod>`{{copy}}
-
-Note: Use the name saved above.
-
-If you're using kubernetes then execute below command.
+Now shell into h2o container.
 
 `kubectl exec --stdin --tty <Name of the pod> -- /bin/bash`{{copy}}
