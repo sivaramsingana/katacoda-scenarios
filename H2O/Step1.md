@@ -1,10 +1,10 @@
 Let's Begin our scenario by cloning the below git repository
 
-`git clone https://github.com/ocp-power-demos/h2o_on_ocp`{{execute HOST1}}
+`git clone https://github.com/sivaramsingana/h2o_on_ocp`{{execute HOST1}}
 
 Clone same repository in Node.
 
-`git clone https://github.com/ocp-power-demos/h2o_on_ocp`{{execute HOST2}}
+`git clone https://github.com/sivaramsingana/h2o_on_ocp`{{execute HOST2}}
 
 Note: Before starting, Please get a license key for accessing platform.Please [sign up:](https://www.h2o.ai/try-driverless-ai/) now.
 
