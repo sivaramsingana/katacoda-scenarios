@@ -1,6 +1,6 @@
 We will now look how to deploy the service/deployment files.
 
-Note: Please replace `kubectl` with `oc` if you are using Redhat Openshift
+Use below commands create a running Pod
 
 `kubectl create -f  h2o-service.yaml`{{execute}}
 
@@ -8,4 +8,4 @@ Note: Please replace `kubectl` with `oc` if you are using Redhat Openshift
 
 `kubectl create -f h2o-deployment.yaml`{{execute}}
 
-`deployment.app/h2o created`
+`deployment.apps/h2o created`
