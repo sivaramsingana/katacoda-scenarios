@@ -1,10 +1,8 @@
-Welcome to h2o.ai platform. Now do a list of available options
+Welcome to H2O platform. Now do a list of available options
 
 `ls`{{execute}}
 
-Note: Before executing the example please get a license key for accessing platform.Please sign up [here:](https://www.h2o.ai/try-driverless-ai/)
-
-Replace the license key available in the platform with your license key.
+Note: considering you have replaced license key in step1
 
 Now run a sample expamle from the platform
 
