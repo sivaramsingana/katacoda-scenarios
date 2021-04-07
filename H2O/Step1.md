@@ -20,4 +20,4 @@ Now create a docker image for H2O using below command
 
 `docker build -t h2o:ppc64le .`{{execute HOST2}}
 
-`cd ../`{{execute HOST1}}
+`cd h2o_on_ocp`{{execute HOST1}}
