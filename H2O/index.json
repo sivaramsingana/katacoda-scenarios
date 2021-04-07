@@ -1,5 +1,5 @@
 {
-    "title": "Learn installing and running H2O.AI Platform on Power Systems",
+    "title": "Learn installing and running H2O Platform on Power Systems",
     "description": "H2O is a fully open source, distributed in-memory machine learning platform with linear scalability.",
     "difficulty": "intermediate",
     "time": "10-15 minutes",
@@ -18,7 +18,7 @@
                 "text": "Step3.md"
             },
 			{
-                "title": "Step 4 - sample demo h2o.ai",
+                "title": "Step 4 - sample demo h2o",
                 "text": "Step4.md"
             }
         ],
